@@ -22,7 +22,7 @@ void game::p1Move() {
 		cin >> colChoice;
 		cout << endl;
 		if (colChoice < 1 || colChoice > 7) {
-			cerr << "Please choose 1-7 dumbass.. did u even read?" << endl;
+			cerr << "Please choose 1-7" << endl;
 			continue;	//go back to start of loop
 		}
 		colChoice -= 1;
@@ -30,7 +30,7 @@ void game::p1Move() {
 			p2Move();	//change back to break
 		}
 		else {
-			cerr << "Brother that shit is full please select a different column" << endl;
+			cerr << "Column is full please make a different selection." << endl;
 		}
 	}
 }
@@ -43,7 +43,7 @@ void game::p2Move() {
 		cin >> colChoice;
 		cout << endl;
 		if (colChoice < 1 || colChoice > 7) {
-			cerr << "Please choose 1-7 dumbass.. did u even read?" << endl;
+			cerr << "Please choose 1-7" << endl;
 			continue;	//go back to start of loop
 		}
 		colChoice -= 1;
@@ -51,7 +51,8 @@ void game::p2Move() {
 			p1Move();	//change back to break
 		}
 		else {
-			cerr << "Brother that shit is full please select a different column" << endl;
+			cerr << "Column is full please make a different selection." << endl;
 		}
 	}
 }
+
