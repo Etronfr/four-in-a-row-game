@@ -14,8 +14,6 @@ using namespace std;
 int main() {
 	game theBoard;
 
-	theBoard.p1Move();	//FIX CHECK FULL
-
-
+	theBoard.p1Move();	//FIX CHECK FULL SWEEP ACROSS TOP
 	return 0;
 }
