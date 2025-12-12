@@ -30,11 +30,6 @@ public:	//IDEA make animated falling chip
 	bool place(int &colChoice, char &player);
 	bool checkWin(int &row, int &colChoice, char& player);
 
-	//Errors
-	//Row can stack 6 max *YO Ethan put this in game class when player makes a choice then automatically check if in range
-	//void range(int &choice); //Col range 1:7 *YO Ethan put this in game class when player makes a choice then automatically check if in range
-
-
 };
 
 
@@ -43,3 +38,4 @@ public:	//IDEA make animated falling chip
 
 
 #endif /* BOARD_H_ */
+
